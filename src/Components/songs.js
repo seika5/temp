@@ -14,8 +14,6 @@ const reload = () => {
 const Songs = () => {
 	return (
 		<div>
-			<button onClick={reload}>▶</button>
-
 			<ReactPlayer
 				className="react-player"
 				url={song[0]}
