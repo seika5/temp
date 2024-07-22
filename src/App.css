@@ -1,4 +1,17 @@
-.App button {
-  padding: 10px;
+a {
+  padding: 1px 6px;
+  border: 1px outset buttonborder;
+  border-radius: 3px;
+  color: buttontext;
+  background-color: white;
+  text-decoration: none;
   margin: 10px;
+}
+
+a:hover {
+  background-color: buttonface;
+}
+
+p {
+  margin: 100px;
 }

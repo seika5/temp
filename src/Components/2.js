@@ -2,20 +2,14 @@ import '../App.css';
 import ReactPlayer from 'react-player';
 
 const song = [
-	"https://www.youtube.com/watch?v=F1yq_J7c6bM",
 	"https://www.youtube.com/watch?v=OjNpRbNdR7E",
-	"https://www.youtube.com/watch?v=ilhQlY7kP5Y",
-	"https://www.youtube.com/watch?v=dJs04lHumSA"];
+	"https://www.youtube.com/watch?v=Tu-GWOM3ZM4",
+	"https://www.youtube.com/watch?v=bmfudW7rbG0",
+	"https://www.youtube.com/watch?v=GK2GUxOnjDQ"];
 
-const reload = () => {
-	window.location.reload();
-}
-
-const Songs = () => {
+const Page2 = () => {
 	return (
 		<div>
-			<button onClick={reload}>▶</button>
-
 			<ReactPlayer
 				className="react-player"
 				url={song[0]}
@@ -24,7 +18,7 @@ const Songs = () => {
 				playing={true}
 				loop={true}
 				controls={true}
-				volume={0.1}
+				volume={0.07}
 			/>
 
 			<ReactPlayer
@@ -35,7 +29,7 @@ const Songs = () => {
 				playing={true}
 				loop={true}
 				controls={true}
-				volume={0.08}
+				volume={0.07}
 			/>
 
 			<ReactPlayer
@@ -46,7 +40,7 @@ const Songs = () => {
 				playing={true}
 				loop={true}
 				controls={true}
-				volume={0.08}
+				volume={0.1}
 			/>
 
 			<ReactPlayer
@@ -63,4 +57,4 @@ const Songs = () => {
 	)
 }
 
-export default Songs
+export default Page2
