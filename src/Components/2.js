@@ -2,10 +2,10 @@ import '../App.css';
 import ReactPlayer from 'react-player';
 
 const song = [
-	"https://www.youtube.com/watch?v=OjNpRbNdR7E",
-	"https://www.youtube.com/watch?v=Tu-GWOM3ZM4",
-	"https://www.youtube.com/watch?v=bmfudW7rbG0",
-	"https://www.youtube.com/watch?v=GK2GUxOnjDQ"];
+	"https://www.youtube.com/watch?v=FCe9HZG50P0",
+	"https://www.youtube.com/watch?v=5Fuplg6MhPQ&t=16",
+	"https://www.youtube.com/watch?v=bLvqxwhZvQ8",
+	"https://www.youtube.com/watch?v=G4NXCb4IalU"];
 
 const Page2 = () => {
 	return (
@@ -18,7 +18,7 @@ const Page2 = () => {
 				playing={true}
 				loop={true}
 				controls={true}
-				volume={0.07}
+				volume={0.1}
 			/>
 
 			<ReactPlayer
@@ -29,7 +29,7 @@ const Page2 = () => {
 				playing={true}
 				loop={true}
 				controls={true}
-				volume={0.07}
+				volume={0.1}
 			/>
 
 			<ReactPlayer
@@ -40,7 +40,7 @@ const Page2 = () => {
 				playing={true}
 				loop={true}
 				controls={true}
-				volume={0.1}
+				volume={0.2}
 			/>
 
 			<ReactPlayer
@@ -51,7 +51,7 @@ const Page2 = () => {
 				playing={true}
 				loop={true}
 				controls={true}
-				volume={0.08}
+				volume={0.12}
 			/>
 		</div>
 	)
