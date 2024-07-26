@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './Components/home';
 import Page1 from './Components/1';
 import Page2 from './Components/2';
+import Page3 from './Components/3';
 
 const App = () => {
   return (
@@ -19,6 +20,9 @@ const App = () => {
             <a href="/2">
               2 ▶
             </a>
+            <a href="/3">
+              3 ▶
+            </a>
           </ul>
         </nav>
 
@@ -26,6 +30,7 @@ const App = () => {
           <Route exact path="/" element={<Home />} />
           <Route path="/1" element={<Page1 />} />
           <Route path="/2" element={<Page2 />} />
+          <Route path="/3" element={<Page3 />} />
         </Routes>
       </div>
     </Router>
