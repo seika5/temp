@@ -5,7 +5,7 @@ const song = [
 	"https://www.youtube.com/watch?v=FCe9HZG50P0",
 	"https://www.youtube.com/watch?v=5Fuplg6MhPQ&t=16",
 	"https://www.youtube.com/watch?v=bLvqxwhZvQ8",
-	"https://www.youtube.com/watch?v=G4NXCb4IalU"];
+	"https://www.youtube.com/watch?v=bmfudW7rbG0"];
 
 const Page2 = () => {
 	return (
@@ -18,7 +18,7 @@ const Page2 = () => {
 				playing={true}
 				loop={true}
 				controls={true}
-				volume={0.1}
+				volume={0.08}
 			/>
 
 			<ReactPlayer
@@ -29,7 +29,7 @@ const Page2 = () => {
 				playing={true}
 				loop={true}
 				controls={true}
-				volume={0.1}
+				volume={0.11}
 			/>
 
 			<ReactPlayer
@@ -51,7 +51,7 @@ const Page2 = () => {
 				playing={true}
 				loop={true}
 				controls={true}
-				volume={0.12}
+				volume={0.1}
 			/>
 		</div>
 	)
