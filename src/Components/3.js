@@ -5,7 +5,7 @@ const song = [
 	"https://www.youtube.com/watch?v=bLvqxwhZvQ8",
 	"https://www.youtube.com/watch?v=d4eRXTWTkAU",
 	"https://www.youtube.com/watch?v=e9oIu1CNuFM",
-	"https://www.youtube.com/watch?v=f7nrB130WUs"];
+	"https://www.youtube.com/watch?v=GCvLiDkjQTc"];
 
 const Page3 = () => {
 	return (
@@ -51,7 +51,7 @@ const Page3 = () => {
 				playing={true}
 				loop={true}
 				controls={true}
-				volume={0.1}
+				volume={0.06}
 			/>
 		</div>
 	)
