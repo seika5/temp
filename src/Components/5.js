@@ -51,7 +51,7 @@ const Page5 = () => {
 				playing={true}
 				loop={true}
 				controls={true}
-				volume={0.2}
+				volume={0.5}
 			/>
 		</div>
 	)
