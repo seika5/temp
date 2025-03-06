@@ -29,7 +29,7 @@ const App = () => {
               4 ▶
             </a>
             <a href="/5">
-              4 ▶
+              5 ▶
             </a>
           </ul>
         </nav>
@@ -40,7 +40,7 @@ const App = () => {
           <Route path="/2" element={<Page2 />} />
           <Route path="/3" element={<Page3 />} />
           <Route path="/4" element={<Page4 />} />
-          <Route path="/5" element={<Page4 />} />
+          <Route path="/5" element={<Page5 />} />
         </Routes>
       </div>
     </Router>
