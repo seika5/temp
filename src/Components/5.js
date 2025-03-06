@@ -18,7 +18,7 @@ const Page5 = () => {
 				playing={true}
 				loop={true}
 				controls={true}
-				volume={0.2}
+				volume={0.1}
 			/>
 
 			<ReactPlayer
@@ -29,7 +29,7 @@ const Page5 = () => {
 				playing={true}
 				loop={true}
 				controls={true}
-				volume={0.08}
+				volume={0.1}
 			/>
 
 			<ReactPlayer
@@ -40,7 +40,7 @@ const Page5 = () => {
 				playing={true}
 				loop={true}
 				controls={true}
-				volume={0.02}
+				volume={0.2}
 			/>
 
 			<ReactPlayer
@@ -51,7 +51,7 @@ const Page5 = () => {
 				playing={true}
 				loop={true}
 				controls={true}
-				volume={0.06}
+				volume={0.2}
 			/>
 		</div>
 	)
