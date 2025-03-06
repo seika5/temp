@@ -20,7 +20,7 @@ const playlist = [
 const song = [
 	"https://www.youtube.com/watch?v=bgf2R1VneE0"];
 
-const Page3 = () => {
+const Page4 = () => {
 	return (
 		<div>
 			<ReactPlayer
@@ -48,4 +48,4 @@ const Page3 = () => {
 	)
 }
 
-export default Page3
+export default Page4
