@@ -5,7 +5,7 @@ import Page1 from './Components/1';
 import Page2 from './Components/2';
 import Page3 from './Components/3';
 import Page4 from './Components/4';
-import Page4 from './Components/5';
+import Page5 from './Components/5';
 
 const App = () => {
   return (
